@@ -4,14 +4,7 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
 {
-    private Rigidbody2D rb;
-    private float cameraMovementSpeed = 4f;
-    // Start is called before the first frame update
-    void Awake()
-    {
-        rb = GetComponent<Rigidbody2D>();
-    }
-
+    private float cameraMovementSpeed = 3f;
     // Update is called once per frame
     void Update()
     {

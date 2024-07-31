@@ -17,7 +17,6 @@ public class PlayerMovement : MonoBehaviour
     {
         Vector3 temp = transform.position;
         temp.x += playerMovementSpeed * Time.deltaTime;
-
         transform.position = temp;
     }
 }

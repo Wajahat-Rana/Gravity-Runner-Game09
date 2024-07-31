@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - BG
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -11,11 +13,11 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - BG
+  - Ground
+  - Collector
+  - Items
+  - Player
   - 
   - 
   - 
@@ -40,4 +42,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2780695859
+    locked: 0
+  - name: Ground
+    uniqueID: 665346343
+    locked: 0
+  - name: Items
+    uniqueID: 3171796655
+    locked: 0
+  - name: Player
+    uniqueID: 2792167283
+    locked: 0
+  - name: Canvas
+    uniqueID: 3711838793
     locked: 0
