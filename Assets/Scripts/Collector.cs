@@ -6,13 +6,11 @@ public class Collector : MonoBehaviour
 {
     private float width = 0f;
 
-    // Start is called before the first frame update
     void Awake()
     {
         width = GameObject.Find("BG").GetComponent<BoxCollider2D> ().size.x;
     }
 
-    // Update is called once per frame
     void OnTriggerEnter2D(Collider2D other)
     {
         if(other.tag == "BG" ){
